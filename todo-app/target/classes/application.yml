@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        show_sql: true
+  datasource:
+    url: jdbc:mysql://devmysql101.misli.tc:3306/task-icv
+    username: root
+    password: bahQu3huTaemaix2
+
